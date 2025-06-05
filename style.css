@@ -107,3 +107,43 @@
       font-size: 14px;
       color: #777;
     }
+
+.input-area {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fef6f9;
+  border: 2px solid #b15e94;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.input-area h2 {
+  margin-bottom: 15px;
+  color: #b15e94;
+}
+
+.input-area input,
+.input-area select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.input-area button {
+  padding: 10px 20px;
+  background-color: #b15e94;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background-color: #973b7a;
+}

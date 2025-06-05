@@ -22,6 +22,19 @@
     <p>Welcome to Azerbaijan, a country whose vibrant culinary scene has something to tickle everyone’s taste buds: from fruity sauces to succulent muttonbased meals and countless types of aromatic plovs. Azerbaijan’s rich cuisine and timeless traditions of warm hospitality are bound to leave a lasting impression. Azerbaijani cuisine is a spectacular fusion of flavours whisked together by the different cultures that once travelled along The Great Silk Road. The country’s unique geography has also given rise to some of the world’s most flavoursome produce: mouth-watering fruits and vegetables, nuts and honey, juices and sweets.</p>
   </section>
 
+  <section class="input-area">
+  <h2>Choose your favorite dish</h2>
+  <input type="text" id="dishInput" placeholder="Dish name">
+  <input type="number" id="ratingInput" placeholder="Rating (1–10)">
+  <select id="spicyInput">
+    <option value="no">Not spicy</option>
+    <option value="yes">Spicy</option>
+  </select>
+  <button id="submitBtn">Submit</button>
+</section>
+
+<div id="result"></div>
+
   <section class="gallery" id="gallery">
     <h2>National treasures</h2>
     <img src="https://i.lezzet.com.tr/images-xxlarge/piti-kebabi-bozbas-375509-c242ac43-3058-4491-a237-35e44177d4cd" alt="Piti"/>
@@ -33,6 +46,8 @@
   <footer>
     <p>© 2025 Karina | All rights reserved</p>
   </footer>
-
+  
+  <div id="result"></div>
+  <script src="script.js"></script>
 </body>
 </html>
